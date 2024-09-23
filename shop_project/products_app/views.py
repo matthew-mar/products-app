@@ -39,7 +39,7 @@ def create_product(
 
 
 class ProductPaginator(LimitOffsetPagination):
-    default_limit = 1
+    default_limit = 3
     offset = 0
 
 
